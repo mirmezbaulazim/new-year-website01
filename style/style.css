@@ -1,0 +1,107 @@
+/* Font Style Section  */
+*{
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+/* Header Style Section  */
+.header{
+    background-image: url("/style/images/banner/banner1.png");
+    /* background-size: 1600px, 800px; */
+    background-repeat: no-repeat;
+    height: 800px;
+}
+/* Banner Style section  */
+.banner{
+    text-align: right;
+    padding: 260px 160px 0;
+    margin-left: 600px;
+}
+.banner-titel{
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+.banner-discription{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+/* Botton Style Section  */
+.btn-prymary{
+background: green;
+font-size:20px;
+padding: 15px 20px;
+color: white;
+font-weight: 600;
+border: 0;
+border-radius: 10px;
+}
+.btn-prymary:hover{
+    background: rgb(1, 44, 1);
+}
+/* Failures Style Section  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.failure-container{display: flex;
+    margin-top: 100px;
+}
+.failure-contant{
+    margin-top: 350px;
+    padding: 0 100px;
+    text-align: left;
+}
+.failure-titel{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.failure-discription{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+li{
+    list-style-type: none;
+    list-style-position: outside;
+    font-size: 16px;
+}
+li i{
+    color: lightgreen;
+    margin-right: 15px;
+}
+.my-plan{
+    margin-top:100px ;
+}
+.my-plan-titel{
+    text-align: center;
+    font-size: 40px;
+}
+.my-plan-container{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 7%;
+    text-align: center;
+}
+.plan-titel{
+    font-size: 30px;
+}
+.plan-discription{
+    font-size: 25px;
+}
+.mindset{
+    margin-top: 100px;
+}
+.grediant-img{
+    background-image: url("./images/watch.png");
+    height: 300px;
+    width: 1140px;
+    position: absolute;
+}
+.grediant{
+    background-image: url("./images/gradient2.png");
+        height: 300px;
+        width: 1140px;
+        opacity: 0.9;
+    }
