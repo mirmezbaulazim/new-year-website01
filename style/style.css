@@ -8,7 +8,7 @@
 }
 /* Header Style Section  */
 .header{
-    background-image: url("/style/images/banner/banner1.png");
+    background-image: url("../style/images/banner/banner1.png");
     /* background-size: 1600px, 800px; */
     background-repeat: no-repeat;
     height: 800px;
