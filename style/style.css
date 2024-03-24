@@ -103,7 +103,75 @@ li i{
 }
 .grediant{
     background-image: url("./images/gradient2.png");
+    background-repeat: no-repeat;
         height: 300px;
         width: 1140px;
         opacity: 0.9;
+        padding: 60px 60px 0;
     }
+.grediant-text{
+    font-size: 40px;
+    max-width: 500px;
+    color: white;
+    margin-bottom: 20px;
+}
+.grediant-btn{
+    color: orangered ;
+    background: white;
+    font-size:20px;
+    padding: 15px 20px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 10px;
+}
+.grediant-btn:hover{
+    background: rgb(200, 210, 200);
+}
+footer{
+    background: black;
+    margin-top: 50px;
+    height: 500px;
+    width: auto;
+}
+.footer-container{
+    color: white;
+    display: flex;
+    max-width: 1140px;
+    margin: 30px auto;
+    padding-top: 100px;
+}
+.future-item{
+    margin-right: 300px;
+}
+.footer-titel{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.footer-item{
+    font-size: 20px;
+}
+.future-img{
+    margin-top: 25px;
+}
+.future-img img{
+margin-right: 25px;
+}
+.footer-box{
+    background: black;
+    font-size:20px;
+    padding: 15px 20px;
+    font-weight: 600;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+.footer-box::placeholder{
+    color: white;
+}
+.copyright{
+    color: white;
+    text-align: center;
+    padding:5px ;
+    margin-top: 20px;
+}
